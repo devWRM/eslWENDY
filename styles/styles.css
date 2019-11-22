@@ -1,0 +1,74 @@
+/* COLORS: https://htmlcolorcodes.com/color-chart
+lilac:  #D7BDE2 or #D2B4DE
+red: #F5B7B1
+blue: #A9CCE3 or #AED6F1
+green: #A3E4D7 or #ABEBC6
+yellow: #F9E79F
+orange: #F5CBA7
+grey: #E5E7E9
+bluegrey: #AEB6BF
+*/
+
+
+body {
+    margin: 0;  /* Ensures no whitespace at the edges of block colors */
+    padding: 0;
+    color: darkslategrey;
+    font-family: ;
+}
+a {
+    background: rgb(72, 61, 139);
+    color: white;
+    text-decoration: none;
+    line-height: 2;
+    padding: 4px;
+    border-radius: 7px;
+}
+a:hover{
+    background: rgba(72, 61, 139, 70%);
+    
+}
+h1 {
+    background: darkslateblue;
+    color: white;
+    margin-bottom: 0;
+}
+.content {
+    width: 700px;
+    margin: 0 auto; /* Centers content */
+    padding: 30px 0;    /* 30=top&bottom 0=left/right */
+}
+
+
+/* Header
+------------------------------------------*/
+
+
+
+/* Stories
+------------------------------------------*/
+.home {
+    
+    background: pink; 
+}
+.story1 {
+    background: #D7BDE2;    /* lilac */
+}
+.story2 {
+    background: #F9E79F;    /* yellow */
+}
+.story3 {
+    background: #ABEBC6;    /* green */
+}
+.story4 {
+    background: #E5E7E9;    /* grey */
+}
+
+
+/* Footer
+------------------------------------------*/
+footer {
+    background: darkslateblue;  
+    color: white;
+}
+
